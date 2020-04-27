@@ -1,0 +1,20 @@
+.comment-view-container .comment-name {
+  font-size: 16px;
+}
+.comment-view-container .comment-range {
+  font-size: 12px;
+  color: #666;
+}
+.comment-view-container {
+  margin: 5px 10px;
+}
+.comment-view-container:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+/* .commentListContainer .heading {
+  padding: 12px 16px;
+}
+.commentListContainer .sub-heading {
+  padding: 12px 16px;
+} */
