@@ -18,7 +18,7 @@ const getConnection = async function getConnection() {
       MongoClient.connect(connectionString, { useUnifiedTopology: true }, (err, client) => {
         if (err) rej(err)
         db = client.db("scry-analytics");
-        db.collection("comments").deleteMany();
+        // db.collection("comments").deleteMany();
         res(db);
       });
     });
