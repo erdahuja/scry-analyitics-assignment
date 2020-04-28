@@ -29,8 +29,8 @@ export default function CommentWrapper() {
     <div className="commentListContainer">
       <span className="heading">Comments</span>
       {comments.length > 0 ? (
-        comments.map((comment) => (
-          <Comment key={comment.range[0] + comment.range[1]} data={comment} />
+        comments.map((comment, idx) => (
+          <Comment key={comment.range[0] + comment.range[1]} data={comment} idx={idx} />
         ))
       ) : (
         <span className="sub-heading">No Comments</span>
